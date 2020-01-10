@@ -1,0 +1,37 @@
+Question1:
+Read the input as two limits and Print the output as Palindrome count between the two limits
+Example #1; Input : 1 10 Output : 9 Example #2: Input : 1 100 Output : 18
+
+Question2:
+Read the input as number and Print the output as Count of Triangles and Circles in the given number
+Example #1 :
+Input : 12854 Output : 3
+
+Example #2:
+Input : 888 Output : 6
+
+Reason : The digits 0,6,9 will have single Circle so the weight will be 1
+The digit 4 have single Triangle then the count will be 1
+The digit 8 have two Circles so that the count will be 2
+
+Question3:
+The program must accept an integer N the input. The program must print the desired pattern as shown in the Example Input/Output section.
+Input Format: The first line contains the value of N. Output Format: The list of lines containing the desired pattern as shown in the Example Input/Output sections.
+input:60710
+output:
+60710
+|******
+|
+|*******
+|*
+|
+
+Question4:(infosys)
+input : [1,2,2,5,2,1,3,8,4]
+output : 9
+conditions and assuptions:
+
+1.In the list,assume that there is only one 5 and only one 8
+and 8 comes always after 5
+2.Return the sum of elements of the list
+3.Do not include the elements between 5 and 8
